@@ -1,0 +1,50 @@
+body{
+    width: 1200px;
+    margin: auto;
+}
+
+/* Formulario */
+.formulario-grupo{
+    border: 2px solid rgb(180, 175, 175);
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.titulo-form{
+    font-size: 2.5em;
+    position: absolute;
+    margin-top: -70px;
+    background-color: #fff;
+    padding: 10px;
+    
+}
+fieldset{
+    border: solid 2px rgb(245, 244, 244);
+    box-shadow:2px 2px 2px 1px rgba(121, 120, 120, 0.2);
+    border-radius: 25px;
+}
+.formulario{
+     display: flex;
+     justify-content: space-evenly;
+}
+
+/* Campos padrões dos Formulario */
+input{
+    margin: 10px 0 10px 0;
+}
+
+.submit-buttom {
+    float: right;
+}
+
+
+/* Divide formulario em duas colunas css para colunas */
+.col-1-form{
+width: 45%;
+}
+
+.col-2-form{
+width: 45%;
+
+}

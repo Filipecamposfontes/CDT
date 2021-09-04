@@ -1,0 +1,31 @@
+.caixa{
+    border: solid 1px #000;
+}
+
+.caixa1{
+width: 300px;
+height: 300px;
+position:fixed;
+}
+
+.caixa2{
+width: 300px;
+height: 300px;
+}
+
+.caixa3{
+
+width: 300px;
+height: 300px;
+
+}
+
+.caixa-centro{
+    width: 150px;
+    height: 150px;
+}
+
+p{
+    text-align: center;
+    margin-top: 30%;   
+}
