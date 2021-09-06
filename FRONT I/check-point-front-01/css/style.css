@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Montserrat&display=swap");
+
+body {
+  padding: 0;
+  background-image: url("https://i.ytimg.com/vi/p0tUgXebC2c/maxresdefault.jpg");
+  background-size: cover;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.stick-menu {
+  background-color: rgb(245, 253, 252);
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 60px;
+}
+
+.menu-logo {
+  display: inline-block;
+  height: 50px;
+}
+
+.menu-primario {
+  display: inline;
+  width: 73%;
+}
+
+.menu-lista {
+  display: inline;
+  width: 100%;
+  color: white;
+  font-size: 1.3em;
+  margin: auto;
+}
+
+/* .social-icon{
+    display: inline;
+    width: 24%;
+}
+ */
+.logo {
+  width: 150px;
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 6em;
+
+  font-family: "Allison", cursive;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: "Allison", cursive;
+}
+
+p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.video {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.layer {
+  position: absolute;
+  background-color: #00000080;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+}
+
+.sessao-2colunas {
+  line-height: 1.5em;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.coluna1 {
+  width: 48%;
+  display: inline-block;
+  margin: auto;
+  float: left;
+  vertical-align: middle;
+}
+
+.coluna2 {
+  color: white;
+  width: 48%;
+  display: inline-block;
+  margin: auto;
+  float: right;
+  vertical-align: middle;
+}
+
+.icones {
+  width: 100%;
+  text-align: center;
+}
+
+.fa-instagram {
+  color: white;
+  font-size: 30px;
+}
+
+.fa-youtube {
+  color: white;
+  font-size: 30px;
+}
+
+.fa-facebook-square {
+  color: white;
+  font-size: 30px;
+}
+
+a + a {
+  padding-left: 2em;
+}
