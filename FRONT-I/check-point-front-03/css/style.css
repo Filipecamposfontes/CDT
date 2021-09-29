@@ -1,0 +1,32 @@
+:root {
+    --primarycolor:#9c1616;
+    --secundarycolor:#666;
+  }
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.bg-gil{
+    background-color: var(--primarycolor);
+}
+
+h1{
+    color:var(--primarycolor);
+    font-size: 1.51em;
+}
+.card-img{
+    height: 400px;
+}
+.slide-gil{
+    height:700px;
+}
