@@ -11,11 +11,6 @@ Nosso objeto aluno terá o método calcularMedia que retorna
 a média de suas notas. Também terá um método chamado faltas, 
 que simplesmente aumenta o número de faltas em 1. */
 
-let media = () => {
-    for (let i = 0; i <= alunos.notas.length; i++) {
-        
-    }
-}
 
 
 /* 
