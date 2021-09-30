@@ -43,7 +43,7 @@ let aluno = {
             return media.toFixed(2);
         }   
         this.faltas = function(){
-            let Falta = this.qFaltas + 1;
+            let Falta = this.qDeFaltas + 1;
             return Falta;
         }
     }
@@ -58,7 +58,7 @@ let aluno2 = new aluno.Aluno('Ezio Lorenzetti', 3,[7,6,9], this.calcMed,this.fal
 let aluno3 = new aluno.Aluno('Filipe Campos', 2,[8,5,9], this.calcMed,this.faltas)
 let aluno4 = new aluno.Aluno('Louise Nascimento', 4,[3,4,9], this.calcMed,this.faltas)
 let aluno5 = new aluno.Aluno('Allan Cardoso', 4,[9,5,9], this.calcMed,this.faltas)
-let aluno6 = new aluno.Aluno('Elissandro Maciel', 1,[8,4,8], this.calcMed,this.faltas)
+let aluno6 = new aluno.Aluno('Elisandro Maciel', 1,[8,4,8], this.calcMed,this.faltas)
 
 aluno.listaDeAlunos = [aluno1,aluno2,aluno3,aluno4,aluno5, aluno6]
 
