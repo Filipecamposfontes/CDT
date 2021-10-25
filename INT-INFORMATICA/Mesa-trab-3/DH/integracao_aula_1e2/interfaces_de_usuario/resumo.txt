@@ -1,0 +1,1 @@
+Resumo: As interfaces gráficas mais conhecidas são Unity, Gnome, KDE, XFCE, LXDE, Cinnamon e Mate. No momento a mais usada no Linux é o Unity por ser a interface gráfica padrão do Ubuntu.
