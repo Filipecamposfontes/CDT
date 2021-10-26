@@ -1,1 +1,3 @@
-Resumo: Em informática, um servidor é um software ou computador, com sistema de computação centralizada que fornece serviços a uma rede de computadores, chamada de cliente. Esses serviços podem ser de naturezas distintas, como por exemplo, arquivos e correio eletrônico.
+Resumo: Em informática, um servidor é um software ou computador, com sistema de computação 
+centralizada que fornece serviços a uma rede de computadores, chamada de cliente. Esses
+ serviços podem ser de naturezas distintas, como por exemplo, arquivos e correio eletrônico.

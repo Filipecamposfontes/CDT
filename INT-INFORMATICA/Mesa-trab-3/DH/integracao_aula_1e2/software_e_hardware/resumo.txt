@@ -1,1 +1,8 @@
-Resumo: Hardware é a parte física do computador, ou seja, o conjunto de aparatos eletrônicos, peças e equipamentos que fazem o computador funcionar. Software é a manipulação, instrução de execução, redirecionamento e execução das atividades lógicas das máquinas.
+Resumo: Hardware é a parte física 
+do computador, ou seja, o conjunto 
+de aparatos eletrônicos, peças e 
+equipamentos que fazem o computador 
+funcionar. Software é a manipulação, 
+instrução de execução, redirecionamento 
+e execução das atividades lógicas das 
+máquinas.
