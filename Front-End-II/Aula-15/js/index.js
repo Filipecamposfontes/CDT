@@ -1,5 +1,5 @@
 let card = document.querySelector(".card")
-
+l
 // Aqui realizamos a consulta da promisse, esperando sua resposta assíncrona
 fetch('https://randomuser.me/api/')
     .then(response => {
@@ -7,12 +7,11 @@ fetch('https://randomuser.me/api/')
     })
     .then(data => {
 
-       
-        let imgUrlRef = data.picture ;
-        let nomeRef = data.name;
-        let emailref = data.email;
+        imgUrlRef = data.results[0].user.picture ;
+        nomeRef = data.results[0].user.name;
+        emailref = data.results[0].user.email;
 
-        //manipulamos a resposta
+        //manipulamos a respostadata.results[0].user.picture
         
         console.log(data)
 
@@ -21,14 +20,14 @@ fetch('https://randomuser.me/api/')
 
 function renderizarDadosUsuario(dados) {
 
-    postContainerReferencia.innerHTML = `
-    
-    <div class="card">
+dados.preventdefault()   
+
+    postContainerReferencia.innerHTML = ` <div class="card">
 
     <div class="post-image">
         <img src="${imgUrlRef}">
     </div>
-    <div class="post-infos">
+    <div class="post-nome">
         <h1 class="post-title">
             ${nomeRef}
         </h1>
@@ -36,7 +35,10 @@ function renderizarDadosUsuario(dados) {
             ${emailref} 
         </p>
     </div>
-</div>` ;
+</div>` 
+;
+
+
 
     /* -------------------------------- Tarefa 1 -------------------------------- */
     // Aqui devem desenvolver uma função que seja exibida na tela:
