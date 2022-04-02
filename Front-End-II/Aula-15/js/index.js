@@ -1,38 +1,42 @@
 let card = document.querySelector(".card")
-l
+gerarRandom();
+
+document.querySelector("#random").addEventListener('click', gerarRandom);
+
 // Aqui realizamos a consulta da promisse, esperando sua resposta assíncrona
+function gerarRandom(){
 fetch('https://randomuser.me/api/')
     .then(response => {
         return response.json()
     })
     .then(data => {
 
-        imgUrlRef = data.results[0].user.picture ;
-        nomeRef = data.results[0].user.name;
-        emailref = data.results[0].user.email;
+    let imgUrlRef = data.results[0].picture ;
+    let nomeRef = data.results[0].name;
+    let emailref = data.results[0].email;
+
+    let picUrl = imgUrlRef.large;
+    let fullname = `${nomeRef.title} ${nomeRef.first} ${nomeRef.last}`
 
         //manipulamos a respostadata.results[0].user.picture
-        
-        console.log(data)
+        renderizarDadosUsuario(fullname,picUrl,emailref)
 
     });
+}
 
+function renderizarDadosUsuario(nome, picUrl, email) {
 
-function renderizarDadosUsuario(dados) {
-
-dados.preventdefault()   
-
-    postContainerReferencia.innerHTML = ` <div class="card">
+    card.innerHTML = `
 
     <div class="post-image">
-        <img src="${imgUrlRef}">
+        <img src="${picUrl}">
     </div>
     <div class="post-nome">
         <h1 class="post-title">
-            ${nomeRef}
+            ${nome}
         </h1>
         <p class="post-mail">
-            ${emailref} 
+            ${email} 
         </p>
     </div>
 </div>` 

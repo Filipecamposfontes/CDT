@@ -27,10 +27,16 @@ h1{
   background-color: white;
   border-radius: 20px;
   margin: 0 auto;
-  height: 200px;
   width: 50%;
   max-width: 400px;
+  padding: 30px;
+  text-align: center;
 }
+
+.post-image > img {
+  width: 100%;
+}
+
 
 .btnContainer{
   padding: 20px 0;
